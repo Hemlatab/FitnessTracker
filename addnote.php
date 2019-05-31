@@ -34,7 +34,6 @@
 
     $note = $_POST['note'];
 
-    //$note = $_POST['note'];
   }
 
     if(strlen($note) < 3){
