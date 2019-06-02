@@ -30,7 +30,7 @@ $sql2 = "SELECT DescArtigo, ProxLinha
 $stmt2 = sqlsrv_query( $conn, $sql2 );
 if( $stmt2 === false) {
     die( print_r( sqlsrv_errors(), true) );
-}s
+}
 $proxln = $row2[1];
 
 $sql2 = "SELECT sum(QtPlaneado) as tPlano, sum(QtReal) as tReal, avg(OEEHora) as mOEE, sum(TempoParagem) as tTempo from DASHBOARD_DETAL_LN where nLinha = $_GET[linha]";
