@@ -236,6 +236,7 @@ button {
     padding: 16px;
 }
 .emailForm{
+
     border: 1px solid grey;
     border-radius: 10px;
     margin-top: 10px;
@@ -246,7 +247,8 @@ button {
     margin-top: 10px;
 }
 textarea{
-    height:120px;
+    height:100px;
+
 }
 
 form{

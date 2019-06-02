@@ -21,6 +21,8 @@
 				<li><a href="register.php">Register</a></li>
 			</ul>
 		</nav>
+		
+
 	</div>
 <div class="img">
 <img src="images/fitness.jpg" alt="Background image" border="3">
@@ -29,6 +31,7 @@
 <h2 style="color: white;">Keep Track with Fitness & Awareness Web Application </h2>
 <h2 style="color: white;">The easiest way to keep fit</h2>
 <br />
+
 <a style="color:white; background-color:#3CB371;font-weight: bolder;" href="register.php">Register Today</a><!-- 
 <a  class="login" href="login.php">Login</h4> -->
 </div>

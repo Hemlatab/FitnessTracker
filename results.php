@@ -67,17 +67,21 @@
 
       if($_POST['goal'] == "Lose weight"){
 
+
       echo "<a href='loseweight.php'>Lose Weight</a>";
       echo "<a href='ques_loseweight.php'>Lose Weight</a>";
       $goal = $_POST['goal'];
 
       }elseif($_POST['goal'] == "Lose 1 pound a week"){
 
+
      echo "<a href='loseapound.php'>Lose a pound</a>";
+
       echo "<a href='ques_loseapound.php'>Lose a pound</a>";
       $goal = $_POST['goal'];
 
       }else{
+
 
       echo "<a href='stayfit.php'>Stay fit</a>";
       echo "<a href='ques_stayfit.php'>Stay Fit</a>";
