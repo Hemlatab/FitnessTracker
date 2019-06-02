@@ -1,0 +1,293 @@
+body {
+ width: 100%;
+ z-index:1;
+}
+.main-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    z-index:1;
+    text-decoration: none;
+}
+.main-nav a:link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: verdana;
+    float: right;
+    padding: 5px;
+    padding-right: 50px;
+}
+
+.nav ul a {
+    color:  #1E90FF; 
+    font-size: 20px;
+    font-weight: bold;
+    font-family: verdana;
+}
+.nav ul li a {
+    text-decoration: none;
+}
+
+a:link {
+    color:white;
+}
+a:visited {
+    color: white;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+div.container_dashboard {
+    width: 100%;
+}
+
+header{
+    padding: 1em;
+    color: white;
+    background-color: #222222;
+    clear: left;
+    text-align: center;
+}
+
+.dashboard {
+    float: left;
+    background-color:#f5f5f5;
+    width: 160px;
+    height: 600px;
+    margin: 0;
+    padding: 1em;
+}
+.dashboard nav ul{
+    text-decoration: none;
+    padding: 0;
+}
+.dashboard nav ul a{
+    text-decoration: none;
+}
+
+.logout{
+    color: blue;
+    background-color: blue;
+}
+.main-nav a{
+    text-decoration: none;
+}
+
+.about{
+    margin: 5%;
+    margin-top: 20%;
+}
+.login{
+    color: white;
+}
+
+p {
+    color: darkgrey;
+    font-family: verdana;
+}
+
+h1{
+    color: white;
+    font-family: verdana;
+}
+
+h2 {
+  color: black;
+  font-family: verdana;
+}
+
+h3{
+    color: white;
+    font-family: verdana;
+   }
+
+h4 {
+    color: white;
+    font-family: verdana;
+   }
+.home-button{
+    margin-bottom: 0px;
+    margin-top: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.home-button a{
+    text-decoration: none;
+    background-color:transparent; 
+    color: #008B8B; 
+    border: 2px solid #fff;
+    padding: 14px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: verdana;
+}
+
+.home-button a:hover{
+    color: transparent;
+}
+.main-nav ul {
+	width:100%;
+}
+
+.main-nav a {
+	display: inline-block;
+	text-align: center;
+	margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main-nav ul {
+	float: right;
+	text-align: right;
+}
+
+.img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    margin-bottom: 0px;
+    width: 500px;
+    height: 600px;
+    border-bottom-style:10px  solid green;
+}
+.border{
+        border-bottom-style:10px  solid green;
+}
+form {
+    font-family: verdana;
+}
+
+.clearfix{
+    color: blue;
+    padding: 10px;
+    position: center;
+}
+
+#wrapper {
+    width: 1000px;
+    background-color: #fff;
+    margin: 0px auto;
+    min-height: 400px;
+    margin-top: 40px;
+}
+
+#error{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#menu{
+    width: 990px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#menu a{
+    text-decoration: none;
+    display: inline-block;
+    color: #666;
+    padding: 10px;
+    background-color: pink;
+}
+
+#menu a:hover{
+    color: #099;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+#survey{
+    color: red;
+    font-weight: bold;
+}
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: verdana;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+.emailForm{
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.registerForm{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+textarea{
+    height:120px;
+}
+
+form{
+    padding-bottom: 20px;
+}
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.footer{
+     padding: 10px;
+     padding-bottom: 1px;
+     text-align: center;
+     background-color: #696969;
+}
+.footer p small{
+    display:center;
+    font-family: verdana;
+}
