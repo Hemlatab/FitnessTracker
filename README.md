@@ -4,4 +4,4 @@ Fitness Tracker website
 ## Screenshots
 
 ### _Landing Page_
-![landingPage](/images/Screenshot-Fitness-Tracker.png)
+![landing_Page](/images/Screenshot-Fitness-Tracker.png)
