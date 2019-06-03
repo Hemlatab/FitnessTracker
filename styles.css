@@ -1,37 +1,47 @@
 body {
  width: 100%;
- z-index:1;
+ margin:0;
 }
-.main-nav {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 100%;
-    z-index:1;
-    text-decoration: none;
+.container{
+    background-image: url('./images/fitness.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
 }
-.main-nav a:link{
+.header{
+flex:1;
+
+}
+.navbar {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(34, 34, 34, 0.2);
+  } 
+  .navbar ul li{
+      list-style-type: none;
+      display: inline;
+      margin:5px;
+  }
+  .navbar ul li a {
+    color:#fff;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: verdana;
-    float: right;
-    padding: 5px;
-    padding-right: 50px;
+    font-size: 17px;
+  }
+ .logo{
+    flex:1;
+    align-self: center;
+    text-decoration: none;
 }
 
-.nav ul a {
-    color:  #1E90FF; 
-    font-size: 20px;
-    font-weight: bold;
+.navbar a:link{
+    font-size: 18px;
     font-family: verdana;
 }
-.nav ul li a {
-    text-decoration: none;
-}
 
-a:link {
-    color:white;
-}
 a:visited {
     color: white;
 }
@@ -46,13 +56,13 @@ div.container_dashboard {
     width: 100%;
 }
 
-header{
+/* header{
     padding: 1em;
     color: white;
     background-color: #222222;
     clear: left;
     text-align: center;
-}
+} */
 
 .dashboard {
     float: left;
@@ -79,8 +89,8 @@ header{
 }
 
 .about{
-    margin: 5%;
-    margin-top: 20%;
+    margin: 5px;
+    margin-top: 10px;
 }
 .login{
     color: white;
@@ -110,13 +120,14 @@ h4 {
     color: white;
     font-family: verdana;
    }
-.home-button{
+.home-content{
     margin-bottom: 0px;
     margin-top: 200px;
     margin-right: 50px;
     margin-left: 50px;
+    text-align: center;
 }
-.home-button a{
+.home-content a{
     text-decoration: none;
     background-color:transparent; 
     color: #008B8B; 
@@ -232,9 +243,6 @@ button {
 }
 
 /* Add padding to containers */
-.container {
-    padding: 16px;
-}
 .emailForm{
 
     border: 1px solid grey;
