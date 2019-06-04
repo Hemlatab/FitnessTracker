@@ -66,15 +66,17 @@
 </head>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 <body>
-	<div class="header">
-		<div id="logo">
+	<div class="navbar-register">
+		<div id="logo-color">
 			<a href="index.php"><img src="images/logo.png"/></a>
-			<a href="contact.php" style="float: right; padding: 10px; margin-right: 30px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none; font-weight: bold">Contact</a>
-			<a href="index.php" style="float: right; padding: 10px; margin-right: 5px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Home<a/>
+			<ul class="register-nav">
+				<li><a href="contact.php">Contact</a></li>
+				<li><a href="index.php">Home<a/></li>
+			</ul>
 		</div>	
 	</div>
 </div>
-<div class="container">
+<div class="register-container">
 <form action="register.php" method="post" enctype="multipart/form-data" autocomplete="off">
                <div class="col-md-6 col-md-offset-3 emailForm">
                    <h1 style="color: maroon;">Register your details</h1> 
