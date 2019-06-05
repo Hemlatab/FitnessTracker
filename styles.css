@@ -2,6 +2,7 @@
 body {
  width: 100%;
  margin:0;
+ font-family: verdana;
 }
 .container{
     background-image: url('./images/fitness.jpg');
@@ -34,7 +35,7 @@ body {
     text-decoration: none;
     font-size: 17px;
   }
- .logo{
+  .logo{
     flex:1;
     align-self: center;
     text-decoration: none;
@@ -48,21 +49,60 @@ body {
 a:visited {
     color: white;
 }
+  .home-content{
+    margin-bottom: 0px;
+    margin-top: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+.home-content h1{
+    color:#ffffff;
+}
+.register-btn{
+    color:#ffffff;
+    padding: 12px 10px;  
+    background-color:#3CB371; 
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none; 
+    border:2px solid #ffffff;
+}
+.register-btn:hover{
+    background-color:#137c42; 
+}
+/** Styles for about section**/
+.about{
+    margin: 10px 20px;
+    padding:40px 80px;
+}
+.home-goals{
+    color:#333333; 
+}
+ .about p{
+    color:#555555;
+    font-size: 17px;
+    line-height: 1.5;
+ }
+/** Styles for footer **/
+ .footer{
+    padding: 10px;
+    text-align: center;
+    background-color: #3CB371;
+    color:#f5f5f5;
+}
 
+.footer p small{
+   display:center;
+   font-family: verdana;
+}
 article {
     margin-left: 170px;
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
 }
-.register-btn{
-    color:#ffffff;
-    font-weight: bolder;
-    padding: 10px;  
-    background-color:#3CB371; 
-    border-radius: 5px;
-    font-weight: bold
-}
+
 /** Styles for Dashboard **/
 
 div.container_dashboard {
@@ -92,51 +132,12 @@ div.container_dashboard {
     text-decoration: none;
 }
 
-.about{
-    margin: 10px 20px 0 5px;
-}
-.home-goals{
-    color:#333333;
-}
+
 .login{
     color: white;
 }
 
-p {
-    color: darkgrey;
-    font-family: verdana;
-}
-
-h1{
-    color: white;
-    font-family: verdana;
-}
-
-h2 {
-  color: black;
-  font-family: verdana;
-}
-
-h3{
-    color: white;
-    font-family: verdana;
-   }
-
-h4 {
-    color: white;
-    font-family: verdana;
-   }
-.home-content{
-    margin-bottom: 0px;
-    margin-top: 200px;
-    margin-right: 50px;
-    margin-left: 50px;
-    text-align: center;
-}
-.home-content h2{
-    color:#ffffff;
-}
-.home-content a{
+/* .home-content a{
     text-decoration: none;
     background-color:transparent; 
     color: #008B8B; 
@@ -145,7 +146,7 @@ h4 {
     font-size: 20px;
     font-weight: bold;
     font-family: verdana;
-}
+} */
 
 .home-button a:hover{
     color: transparent;
@@ -292,21 +293,38 @@ form{
     padding-bottom: 20px;
 }
 /** styles for social media **/
+.social [class*="fa fa-"] {
+    /* background-color: #333; */
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 28px;
+    line-height: 30px;
+    margin: auto 3px;
+    width: 28px;
+    font-size: 15px;
+    text-align: center;
+}
 .fa {
-  padding: 15px;
+  /* padding: 15px;
   font-size: 20px;
   width: 30px;
   text-align: center;
+  margin: 5px 2px; */
   text-decoration: none;
-  margin: 5px 2px;
   border-radius: 50%;
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.9em 1em;
+  margin: 5px;
 }
 
 .fa:hover {
     opacity: 0.7;
 }
 
-.fa-facebook {
+.fa-facebook-f {
   background: #3B5998;
   color: white;
 }
@@ -321,13 +339,3 @@ form{
   color: white;
 }
 
-.footer{
-     padding: 10px;
-     padding-bottom: 1px;
-     text-align: center;
-     background-color: #696969;
-}
-.footer p small{
-    display:center;
-    font-family: verdana;
-}
