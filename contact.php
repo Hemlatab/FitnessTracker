@@ -63,10 +63,10 @@ if (isset($_POST['submit'])){
 			</div>
 		</div>
 		<br/>
-       <div class="container">
+       <div class="container-contact">
            <div class="row">
                <div class="col-md-6 col-md-offset-3 emailForm">
-                   <h1 style="color: maroon;">Contact Form</h1>
+                   <h1>Contact Form</h1>
                    
                    <?php echo $result; ?>
                    
@@ -89,7 +89,8 @@ if (isset($_POST['submit'])){
                    </form>
                </div>
            </div>
-       </div>               
+       </div>    
+       <br />           
         <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
        <footer>

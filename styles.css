@@ -132,9 +132,12 @@ div.container_dashboard {
     text-decoration: none;
 }
 
-
 .login{
     color: white;
+}
+.not-register{
+    background-color:grey; 
+    padding: 10px;
 }
 
 /* .home-content a{
@@ -260,6 +263,9 @@ button {
     margin-top: 10px;
 }
 /**Styles for Register form **/
+h1.register-header{
+    color: maroon;
+}
 #logo-color{
     margin: 10px;
 }
@@ -278,12 +284,15 @@ button {
     flex-direction: column;
 }
 .register-container{
-    align-content: center;
+     align-content: center; 
 }
 .registerForm{
     border: 1px solid grey;
     border-radius: 5px;
     margin-top: 10px;
+}
+.col-md-6 col-md-offset-3 emailForm{
+    align-content: center; 
 }
 textarea{
     height:100px;

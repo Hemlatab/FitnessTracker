@@ -76,10 +76,11 @@
 		</div>	
 	</div>
 </div>
+<br />
 <div class="register-container">
 <form action="register.php" method="post" enctype="multipart/form-data" autocomplete="off">
                <div class="col-md-6 col-md-offset-3 emailForm">
-                   <h1 style="color: maroon;">Register your details</h1> 
+                   <h1 class="register-header">Register your details</h1> 
                    <form method="post">
                        <div class="form-group">
                            <label><b>Username</b></label>
