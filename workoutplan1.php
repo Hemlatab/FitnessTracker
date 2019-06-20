@@ -12,17 +12,20 @@
 </head>
 <body>
   <div class="header">
-      <div id="logo">
-        <a href="profile.php"><img src="images/logo.png"/></a>
-        <a href="logout.php" style="float: right; padding: 10px; margin-right: 40px; text-decoration: none;font-weight: bold; margin-right: 40px; background-color:#3CB371; color:white; border-radius: 5px;">Logout<a/>
-        <a href="index.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Home<a/>
-        <a href="profile.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Profile</a>
-        <a href="contact.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Contact</a>
-    </div>
+  <li class="header">
+			<nav class="navbar">
+				<a class="logo" href="index.php"><img src="images/logo1.png"/></a>
+			<ul>
+				<li><a href="register.php">Register</a></li>
+				<li><a href="login.php">Login</a></li>
+				<li><a href="contact.php">Contact</a></li>	
+			</ul>
+		</nav>
+	</li>
     </div>
     <br/>
    <p>Hi,<?php echo "<strong>". $_SESSION['username'] ."</strong>";?></p>
-<div class="container">
+<div class="container-1">
 <div class="row">
 <div class="col-sm-7">
 <h1 style="color: maroon;">Workout Plan</h1>
@@ -70,7 +73,7 @@
 </div>
 </div>
 </div>
-<div class="container">
+<div class="container-1">
 <div class="row">
 <div class="col-sm-7">
 <div class="table-responsive">
@@ -115,7 +118,7 @@
  </div>
  </div>
 </div>
- <div class="container">
+ <div class="container-1">
  <div class="row">
         <div class="col-sm-7">
  <div class="table-responsive">
@@ -159,7 +162,7 @@
 </div>
 </div></div>
 </div>
-  <div class="container">
+  <div class="container-2">
   <div class="row">
    <div class="col-sm-7">
   <div class="table-responsive">

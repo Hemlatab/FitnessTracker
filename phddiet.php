@@ -14,14 +14,18 @@
 </head>
 <body>
   <div class="header">
-      <div id="logo">
+        <header class="header">
+			<nav class="navbar">
+        <a class="logo" href="index.php"><img src="images/logo1.png"/></a>
+         
         <a href="profile.php"><img src="images/logo.png"/></a>
-        <a href="logout.php" style="float: right; padding: 10px; margin-right: 40px; text-decoration: none;font-weight: bold; margin-right: 40px; background-color:#3CB371; color:white; border-radius: 5px;">Logout<a/>
-        <a href="index.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Home<a/>
-        <a href="login.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Login<a/>
-        <a href="profile.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Profile</a>
-        <a href="contact.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Contact</a>
-    </div>
+			<ul>
+				<li><a href="register.php">Register</a></li>
+				<li><a href="login.php">Login</a></li>
+				<li><a href="contact.php">Contact</a></li>	
+			</ul>
+		</nav>
+	</header>
     </div>
     <h1 style="color: maroon;">PhD Diet Whey protein Powder
 </h1>

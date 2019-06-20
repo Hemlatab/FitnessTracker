@@ -41,12 +41,16 @@ session_start();
     <link rel="stylesheet" type="text/css" href="styles.css">
   <body>
     <div class="header">
-      <div id="logo">
-        <a href="index.php"><img src="images/logo.png"/></a>
-        <a href="logout.php" style="float: right; padding: 10px; margin-right: 40px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;">Logout<a/>
-        <a href="index.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;">Home<a/>
-        <a href="contact.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;">Contact</a>
-      </div>
+    <header class="header">
+			<nav class="navbar">
+				<a class="logo" href="index.php"><img src="images/logo1.png"/></a>
+			<ul>
+				<li><a href="register.php">Register</a></li>
+				<li><a href="login.php">Login</a></li>
+				<li><a href="contact.php">Contact</a></li>	
+			</ul>
+		</nav>
+	</header>
     <div>
   </div>  
     <form action="results.php" method="post">
