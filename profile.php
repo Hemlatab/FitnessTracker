@@ -41,7 +41,7 @@ session_start();
     <link rel="stylesheet" type="text/css" href="styles.css">
   <body>
     <div class="header">
-    <header class="header">
+    <a class="header">
 			<nav class="navbar">
 				<a class="logo" href="index.php"><img src="images/logo1.png"/></a>
 			<ul>
@@ -50,16 +50,16 @@ session_start();
 				<li><a href="contact.php">Contact</a></li>	
 			</ul>
 		</nav>
-	</header>
+	</a>
     <div>
   </div>  
     <form action="results.php" method="post">
       <p>Welcome, <?php echo "<strong>". $_SESSION['username'] ."</strong>";?></p>
-    <div class="container">
+    <div class="container-1">
     <div class="row">
     <div class="col-sm-7 emailForm">
     <div class="form-group">
-    <legend for="title" style="color: maroon;">Tell us about yourself</legend>
+    <legend for="title" class = "title">Tell us about yourself</legend>
     <div class="form-inline">
     <label for="age">Age group</label>
     <select class="form-control" id="age" name="age">

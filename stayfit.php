@@ -29,8 +29,8 @@
 	</div>
 		 <form action="" method="post">
       <p>Hi,<?php echo $_SESSION['username'];?></p>
-		 	<div class="container">
-		 		<h1 style="color: maroon;">Stay fit</h1>
+		 	<div class="container-1">
+		 		<h1 class="title">Stay fit</h1>
  		 			<p>Meals to follow when you wish to stay fit. </p>
   		 		<div class="row">
   					<div class="col-sm-7">
@@ -76,10 +76,10 @@
 </form>
 </div>
 </div>
-	<div class="container">
+	<div class="container-1">
 		<div class="row">
   			<div class="col-sm-7">
-  <h2 style="color: maroon;">Supplementation</h2>
+  <h2 class="title">Supplementation</h2>
   <div class="well well-sm">Choose any one from these supplementation:<br/><br/>
     <ol>(1) Optimum nutrition gold standard Whey protein <a style="padding: 10px; margin-right: 50px; background-color: #3CB371; color:white;text-decoration: none; border-radius: 5px;" href= "optimum.php">Click here</a></ol><br/>
 	<ol>(2) Impact whey protein <a style="padding: 10px; margin-right: 40px; background-color:#3CB371;color:white;text-decoration: none; border-radius: 5px;" href="optimum.php">Click here</a></ol><br/>

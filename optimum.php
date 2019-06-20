@@ -1,11 +1,6 @@
 <html>
 <head>
       <link rel="stylesheet" type="text/css" href="styles.css">
-      <style>
-        body{
-          background-color: grey;
-        }
-      </style>
         <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -14,16 +9,18 @@
 </head>
 <body>
   <div class="header">
-      <div id="logo">
-        <a href="profile.php"><img src="images/logo.png"/></a>
-        <a href="logout.php" style="float: right; padding: 10px; margin-right: 40px; text-decoration: none;font-weight: bold; margin-right: 40px; background-color:#3CB371; color:white; border-radius: 5px;">Logout<a/>
-        <a href="index.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Home<a/>
-        <a href="login.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Login<a/>
-        <a href="profile.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Profile</a>
-        <a href="contact.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Contact</a>
+  <ul class="header">
+			<nav class="navbar">
+				<a class="logo" href="index.php"><img src="images/logo1.png"/></a>
+			<ul>
+				<li><a href="register.php">Register</a></li>
+				<li><a href="login.php">Login</a></li>
+				<li><a href="contact.php">Contact</a></li>	
+			</ul>
+		</nav>
+	</ul>
     </div>
-    </div>
-    <h1 style="color: maroon;">Optimum nutrition Gold standard
+    <h1 class="title">Optimum nutrition Gold standard
 </h1>
 <h3>Product Description </h3>
 <h4>Great tasting Chocolate protein shake containing Whey Protein Isolate</h4>
