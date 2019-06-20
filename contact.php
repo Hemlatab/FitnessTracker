@@ -52,13 +52,13 @@ if (isset($_POST['submit'])){
     </head>
     <body>
     <div class="header">
-		<div id="logo">
-			<a href="index.php"><img src="images/logo.png"/></a>
-			<ul class="main-nav">
-				<a href="index.php" style="float: right; padding: 10px; margin-right: 1px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;">Home</a>
-				<a href="contact.php" style="float: right; padding: 10px; margin-right: 1px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;"">Contact</a>
-				<a href="login.php" style="float: right; padding: 10px; margin-right: 1px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;">Login</a>
-				<a href="register.php" style="float: right; padding: 10px; margin-right: 1px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;">Register</a>
+	<header class="header">
+			<nav class="navbar">
+				<a class="logo" href="index.php"><img src="images/logo1.png"/></a>
+			<ul>
+				<li><a href="register.php">Register</a></li>
+				<li><a href="login.php">Login</a></li>
+				<li><a href="contact.php">Contact</a></li>
 			</ul>
 			</div>
 		</div>
@@ -66,7 +66,7 @@ if (isset($_POST['submit'])){
        <div class="container-contact">
            <div class="row">
                <div class="col-md-6 col-md-offset-3 emailForm">
-                   <h1>Contact Form</h1>
+                   <h1 class="title">Contact Form</h1>
                    
                    <?php echo $result; ?>
                    

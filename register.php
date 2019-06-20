@@ -102,7 +102,7 @@
     <input type="text" placeholder="Enter Email" name="user_email" required>
  <br/>
     <div class="clearfix">
-      <input type="submit" name="submit" value="Sign Up" style="background-color: #228B22; padding: 10px;font-weight: bold;">
+      <input type="submit" name="submit" value="Sign Up" class="signup-btn">
     </div>
                    </form>
                
