@@ -275,6 +275,7 @@ h1.register-header{
 }
 .navbar-register{
     flex:1;
+    justify-content: center;
 }
 .register-nav{
     float: right; 
@@ -297,6 +298,8 @@ h1.register-header{
 }
 .signup-btn{
     background-color:#3CB371; 
+    border-radius: 5px;
+    color:#f5f5f5;
 }
 .col-md-6 col-md-offset-3 emailForm{
     align-content: center; 

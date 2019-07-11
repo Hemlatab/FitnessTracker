@@ -104,7 +104,7 @@
     <div class="clearfix">
       <input type="submit" name="submit" value="Sign Up" class="signup-btn">
     </div>
-                   </form>
+</form>
                
            </div>
        </div>             
