@@ -6,16 +6,17 @@
 
   if(logged_in()){
 
-   echo "You are logged in, <br/>";
+  echo "<div class='results-content'>";
+   echo "You are logged in,";
    echo "<strong>". $_SESSION['username'] ."</strong>";
 
   	} else {
 
-    	echo "You are not logged in" ;
+    	echo "You are not logged in as" ;
   }
 
   echo "<br/>";
-  echo "<h1 style='color: maroon;'>Recommended Fitness Plan<h1/>";
+  echo "<h1 class='results-title'>Recommended Fitness Plan<h1/>";
 
   $age = $gender = $height = $currentweight = $desiredweight = $goal = $activities = "";
 
@@ -113,11 +114,11 @@
   echo "Daily Activities : ".$activities."<br/>";
 
     mysqli_close($conn);
+    echo "</div>";
 ?>
 <html>
 <head>
       <link rel="stylesheet" type="text/css" href="styles.css">
-      <style>body{ background-color:lightsteelblue;}</style>
 </head>
 <body>
   
