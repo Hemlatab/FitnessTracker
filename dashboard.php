@@ -47,11 +47,6 @@ echo "</table>";
      <li><a href="logout.php">Logout</a></li>
   </ul>
 </nav>
-<style>
-  body{
-    background-color: lightgrey;
-  }
-</style>
 
 <article>
 <p>Hi,<?php echo "<strong>". $_SESSION['username'] ."</strong>";?></p>
