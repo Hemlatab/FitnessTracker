@@ -66,10 +66,10 @@
 </head>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 <body>
-	<div class="container">
+	<div class="navbar-register">
 	<header class="header">
 			<nav class="navbar">
-				<a class="logo" href="index.php"><img src="images/logo1.png"/></a>
+				<a class="logo" href="index.php"><img src="images/logo.png"/></a>
 			<ul>
 				<li><a href="register.php">Register</a></li>
 				<li><a href="login.php">Login</a></li>
