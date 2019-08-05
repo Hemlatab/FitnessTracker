@@ -66,14 +66,17 @@
 </head>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 <body>
-	<div class="navbar-register">
-		<div id="logo-color">
-			<a href="index.php"><img src="images/logo.png"/></a>
-			<ul class="register-nav">
-				<li><a href="contact.php">Contact</a></li>
-				<li><a href="index.php">Home<a/></li>
+	<div class="container">
+	<header class="header">
+			<nav class="navbar">
+				<a class="logo" href="index.php"><img src="images/logo1.png"/></a>
+			<ul>
+				<li><a href="register.php">Register</a></li>
+				<li><a href="login.php">Login</a></li>
+				<li><a href="contact.php">Contact</a></li>	
 			</ul>
-		</div>	
+		</nav>
+	</header>
 	</div>
 </div>
 <br />
