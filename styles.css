@@ -1,14 +1,14 @@
+/** Styles for home **/
 body {
  width: 100%;
- z-index:1;
+ margin:0;
+ font-family: verdana;
+ 
 }
-.main-nav {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 100%;
-    z-index:1;
-    text-decoration: none;
+.title{
+    color:maroon;
 }
+<<<<<<< HEAD
 .main-nav a:link{
     text-decoration: none;
     font-size: 20px;
@@ -17,43 +17,109 @@ body {
     float: right;
     padding: 5px;
     padding-right: 5px;
+=======
+.container{
+    background-image: url('./images/fitness.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+>>>>>>> e834644cda2fad5ef9630808d71e3cf73c0aaf94
+}
+.header{
+    flex:1;
 }
 
-.nav ul a {
-    color:  #1E90FF; 
-    font-size: 20px;
-    font-weight: bold;
-    font-family: verdana;
-}
-.nav ul li a {
+/** Styles for nav **/
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(34, 34, 34, 0.2);
+  } 
+  .navbar ul li{
+      list-style-type: none;
+      display: inline;
+      margin:5px;
+  }
+  .navbar ul li a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .logo{
+    flex:1;
+    align-self: center;
     text-decoration: none;
 }
 
-a:link {
-    color:white;
+.navbar a:link{
+    font-size: 18px;
+    font-family: verdana;
 }
+
 a:visited {
     color: white;
 }
+  .home-content{
+    margin-bottom: 0px;
+    margin-top: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+.home-content h1{
+    color:#ffffff;
+}
+.register-btn{
+    color:#ffffff;
+    padding: 12px 10px;  
+    background-color:#3CB371; 
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none; 
+    border:2px solid #ffffff;
+}
+.register-btn:hover{
+    background-color:#137c42; 
+}
+/** Styles for about section**/
+.about{
+    margin: 10px 20px;
+    padding:40px 80px;
+}
+.home-goals{
+    color:#333333; 
+}
+ .about p{
+    color:#555555;
+    font-size: 17px;
+    line-height: 1.5;
+ }
+/** Styles for footer **/
+ .footer{
+    padding: 10px;
+    text-align: center;
+    background-color: #3CB371;
+    color:#f5f5f5;
+}
 
+.footer p small{
+   display:center;
+   font-family: verdana;
+}
 article {
     margin-left: 170px;
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
 }
+
+/** Styles for Dashboard **/
+
 div.container_dashboard {
     width: 100%;
 }
-
-header{
-    padding: 1em;
-    color: white;
-    background-color: #222222;
-    clear: left;
-    text-align: center;
-}
-
 .dashboard {
     float: left;
     background-color:#f5f5f5;
@@ -78,45 +144,15 @@ header{
     text-decoration: none;
 }
 
-.about{
-    margin: 5%;
-    margin-top: 20%;
-}
 .login{
     color: white;
 }
-
-p {
-    color: darkgrey;
-    font-family: verdana;
+.not-register{
+    background-color:grey; 
+    padding: 10px;
 }
 
-h1{
-    color: white;
-    font-family: verdana;
-}
-
-h2 {
-  color: black;
-  font-family: verdana;
-}
-
-h3{
-    color: white;
-    font-family: verdana;
-   }
-
-h4 {
-    color: white;
-    font-family: verdana;
-   }
-.home-button{
-    margin-bottom: 0px;
-    margin-top: 200px;
-    margin-right: 50px;
-    margin-left: 50px;
-}
-.home-button a{
+/* .home-content a{
     text-decoration: none;
     background-color:transparent; 
     color: #008B8B; 
@@ -125,7 +161,7 @@ h4 {
     font-size: 20px;
     font-weight: bold;
     font-family: verdana;
-}
+} */
 
 .home-button a:hover{
     color: transparent;
@@ -231,18 +267,50 @@ button {
     margin: 24px 0 12px 0;
 }
 
-/* Add padding to containers */
-.container {
-    padding: 16px;
-}
+/* Add padding to containers form styles */
 .emailForm{
+
+    border: 1px solid grey;
     border-radius: 10px;
     margin-top: 10px;
+}
+/**Styles for Register form **/
+h1.register-header{
+    color: maroon;
+}
+#logo-color{
+    margin: 10px;
+}
+.navbar-register{
+    flex:1;
+    justify-content: center;
+}
+.register-nav{
+    float: right; 
+    padding: 5px; 
+    background-color:#3CB371; 
+    color:#555; 
+    border-radius: 5px;
+    text-decoration: none; 
+    font-weight: bold;
+    list-style-type: none;
+    flex-direction: column;
+}
+.register-container{
+     align-content: center; 
 }
 .registerForm{
     border: 1px solid grey;
     border-radius: 5px;
     margin-top: 10px;
+}
+.signup-btn{
+    background-color:#3CB371; 
+    border-radius: 5px;
+    color:#f5f5f5;
+}
+.col-md-6 col-md-offset-3 emailForm{
+    align-content: center; 
 }
 textarea{
     height:100px;
@@ -251,21 +319,36 @@ textarea{
 form{
     padding-bottom: 20px;
 }
-.fa {
-  padding: 15px;
-  font-size: 20px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+
+/** styles for Results.php **/
+.results-title{
+    color:maroon;
+}
+.results-content{
+    text-align: center;
+}
+/** styles for social media **/
+.social [class*="fa fa-"] {
+    /* background-color: #333; */
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px;
 }
 
 .fa:hover {
     opacity: 0.7;
 }
 
-.fa-facebook {
+.fa-facebook-f {
   background: #3B5998;
   color: white;
 }
@@ -280,13 +363,3 @@ form{
   color: white;
 }
 
-.footer{
-     padding: 10px;
-     padding-bottom: 1px;
-     text-align: center;
-     background-color: #696969;
-}
-.footer p small{
-    display:center;
-    font-family: verdana;
-}

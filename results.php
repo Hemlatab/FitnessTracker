@@ -6,16 +6,17 @@
 
   if(logged_in()){
 
-   echo "You are logged in, <br/>";
+  echo "<div class='results-content'>";
+   echo "You are logged in,";
    echo "<strong>". $_SESSION['username'] ."</strong>";
 
   	} else {
 
-    	echo "You are not logged in" ;
+    	echo "You are not logged in as" ;
   }
 
   echo "<br/>";
-  echo "<h1 style='color: maroon;'>Recommended Fitness Plan<h1/>";
+  echo "<h1 class='results-title'>Recommended Fitness Plan<h1/>";
 
   $age = $gender = $height = $currentweight = $desiredweight = $goal = $activities = "";
 
@@ -67,21 +68,26 @@
 
       if($_POST['goal'] == "Lose weight"){
 
-      //echo "<a href='loseweight.php'>Lose Weight</a>";
+
+      echo "<a href='loseweight.php'>Lose Weight</a>";
       echo "<a href='ques_loseweight.php'>Lose Weight</a>";
       $goal = $_POST['goal'];
 
       }elseif($_POST['goal'] == "Lose 1 pound a week"){
 
-     // echo "<a href='loseapound.php'>Lose a pound</a>";
+
+     echo "<a href='loseapound.php'>Lose a pound</a>";
+
       echo "<a href='ques_loseapound.php'>Lose a pound</a>";
       $goal = $_POST['goal'];
 
       }else{
 
-      //echo "<a href='stayfit.php'>Stay fit</a>";
+
+      echo "<a href='stayfit.php'>Stay fit</a>";
       echo "<a href='ques_stayfit.php'>Stay Fit</a>";
       $goal = $_POST['goal'];
+      
       }  
 
   $save_profile_query = "INSERT INTO profile (age, gender, height, currentweight, desiredweight, goal, activities) VALUES ('$age','$gender','$height','$currentweight','$desiredweight','$goal','$activities') ";
@@ -108,11 +114,11 @@
   echo "Daily Activities : ".$activities."<br/>";
 
     mysqli_close($conn);
+    echo "</div>";
 ?>
 <html>
 <head>
       <link rel="stylesheet" type="text/css" href="styles.css">
-      <style>body{ background-color:lightsteelblue;}</style>
 </head>
 <body>
   

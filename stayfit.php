@@ -16,19 +16,21 @@
 </head>
 <body>
   <div class="header">
-			<div id="logo">
-				<a href="profile.php"><img src="images/logo.png"/></a>
-				<a href="logout.php" style="float: right; padding: 10px; margin-right: 40px; text-decoration: none;font-weight: bold; margin-right: 40px; background-color:#3CB371; color:white; border-radius: 5px;">Logout<a/>
-				<a href="index.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Home<a/>
-				<a href="login.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Login<a/>
-				<a href="profile.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Profile</a>
-				<a href="contact.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Contact</a>
-			</div>
+  <header class="header">
+			<nav class="navbar">
+				<a class="logo" href="index.php"><img src="images/logo1.png"/></a>
+			<ul>
+				<li><a href="register.php">Register</a></li>
+				<li><a href="login.php">Login</a></li>
+				<li><a href="contact.php">Contact</a></li>	
+			</ul>
+		</nav>
+	</header>
 	</div>
 		 <form action="" method="post">
       <p>Hi,<?php echo $_SESSION['username'];?></p>
-		 	<div class="container">
-		 		<h1 style="color: maroon;">Stay fit</h1>
+		 	<div class="container-1">
+		 		<h1 class="title">Stay fit</h1>
  		 			<p>Meals to follow when you wish to stay fit. </p>
   		 		<div class="row">
   					<div class="col-sm-7">
@@ -74,10 +76,10 @@
 </form>
 </div>
 </div>
-	<div class="container">
+	<div class="container-1">
 		<div class="row">
   			<div class="col-sm-7">
-  <h2 style="color: maroon;">Supplementation</h2>
+  <h2 class="title">Supplementation</h2>
   <div class="well well-sm">Choose any one from these supplementation:<br/><br/>
     <ol>(1) Optimum nutrition gold standard Whey protein <a style="padding: 10px; margin-right: 50px; background-color: #3CB371; color:white;text-decoration: none; border-radius: 5px;" href= "optimum.php">Click here</a></ol><br/>
 	<ol>(2) Impact whey protein <a style="padding: 10px; margin-right: 40px; background-color:#3CB371;color:white;text-decoration: none; border-radius: 5px;" href="optimum.php">Click here</a></ol><br/>

@@ -1,0 +1,96 @@
+/*geral*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+}
+
+.menu{
+    background-color:orange;
+}
+/*geral*/
+
+/*graficos*/
+.layout {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: top;
+    flex-direction: column;
+}
+
+.info {
+    display: block;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.info__title {
+    font-family: 'Baloo Bhaina';
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.info__desc {
+    font-family: 'Roboto';
+}
+
+.fl {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.btn {
+    margin: 1em 0;
+    display: block;
+    text-align: center;
+}
+
+.gauge {
+    text-align: center;
+    
+
+}
+ .gauge   
+.gauge canvas {
+    margin-top: -0.2em;
+}
+
+/*graficos*/
+
+/*bootstrap*/
+.col-sm-4{
+  margin-top:10px;
+margin-bottom: 5px;
+margin-top: 30px;
+}
+/*bootstrap*/
+
+/*texto linhas */
+
+#textoL2{
+    font-size: 60px;
+    color:white;
+    margin-left:40em;
+    
+}
+/*texto linhas */
+
+
+/*media queries responsive resolutions*/
+
+/*360 x 640*/
+@media all and (max-width:640px) and (min-width:360px){
+    body{
+        background-color:red;
+    }
+}

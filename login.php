@@ -46,22 +46,21 @@ ob_end_flush();//producing the content back on the page
 	</head>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 	<body>
-		<div class="header">
+		<div class="navbar">
 			<div id="logo">
 				<a href="profile.php"><img src="images/logo.png"/></a>
-				<a href="logout.php" style="float: right; padding: 10px; margin-right: 40px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold;">Logout<a/>
-				<a href="index.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Home<a/>
-				<a href="login.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Login<a/>
-				<a href="contact.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Contact</a>
+				<a href="logout.php">Logout Home<a/>
+				<a href="login.php">Login<a/>
+				<a href="contact.php">Contact</a>
 		</div>
 		</div>
 	</div>
 	<div id="wrapper">
 	<form action="" method="post">
-	  <div class="container">
+	  <div class="container-login">
 	  <div class="row">
       <div class="col-sm-7 emailForm">
-	  <h3 style="color: maroon;">Enter your login details</h3>
+	  <h3>Enter your login details</h3>
 	    <label><b>Username</b></label>
 	    <input type="text" placeholder="Enter Username" name="username" required>
 	    <label><b>Password</b></label>
@@ -69,7 +68,7 @@ ob_end_flush();//producing the content back on the page
 	     <input type="checkbox" name="rememberme" />
 	    <label>Remember me</label><br/><br/>    
 	    <button type="submit" name="submit">Login</button>
-	    	<p style="background-color:grey; padding: 10px;">Not registered yet? <a href="register.php">Click here to Register</a></p>
+	    	<p class="not-register">Not registered yet? <a href="register.php">Click here to Register</a></p>
 	    </div>
 	    </div>
 	  </div>

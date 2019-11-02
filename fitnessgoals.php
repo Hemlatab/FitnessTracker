@@ -2,7 +2,6 @@
 <html>
 <head>
       <link rel="stylesheet" type="text/css" href="styles.css">
-      <style> body{background-color: grey;} </style>
         <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,16 +10,20 @@
 </head>
 <body>
   <div class="header">
-      <div id="logo">
-        <a href="profile.php"><img src="images/logo.png"/></a>
-        <a href="logout.php" style="float: right; padding: 10px; margin-right: 40px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold;">Logout<a/>
-        <a href="index.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Home<a/>
-        <a href="login.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Login<a/>
-        <a href="profile.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Profile</a>
-        <a href="contact.php" style="float: right; padding: 10px; margin-right: 10px; background-color:#3CB371; color:white; border-radius: 5px;text-decoration: none;font-weight: bold">Contact</a>
+  <header class="header">
+			<nav class="navbar">
+				<a class="logo" href="index.php"><img src="images/logo1.png"/></a>
+			<ul>
+				<li><a href="register.php">Register</a></li>
+				<li><a href="login.php">Login</a></li>
+				<li><a href="contact.php">Contact</a></li>	
+			</ul>
+		</nav>
+	</header>
+   
     </div>
     </div>
-    <div class="container">
+    <div class="container1">
     <?php
   
     require_once "includes/db.php";
@@ -46,7 +49,7 @@
     <div class="row">
     <div class="col-sm-7">
   <div class="table-responsive">
-  <h2 style="color: maroon;">Add fitness goals</h2>
+  <h2>Add fitness goals</h2>
   <p>The form below contains a textarea for adding note to your workout plan:</p>
   <form method="post" action="">
     <div class="form-group">
