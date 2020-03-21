@@ -11,9 +11,11 @@
 <head>
 	<title>Fitness & Awareness Web Application</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="./styles.css">
-</head>	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<?php include "includes/db.php";?>
+
 <body>
 	<div class="container">
 		<header class="header">
