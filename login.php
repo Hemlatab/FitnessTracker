@@ -46,12 +46,14 @@ ob_end_flush();//producing the content back on the page
 	</head>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 	<body>
-		<div class="navbar">
-			<div id="logo">
-				<a href="profile.php"><img src="images/logo.png"/></a>
-				<a href="logout.php">Logout Home<a/>
-				<a href="login.php">Login<a/>
-				<a href="contact.php">Contact</a>
+		<nav class="navbar">
+				<a class="logo" href="index.php"><img src="images/logo.png"/></a>
+			<ul>
+				<li><a href="register.php">Register</a></li>
+				<li><a href="login.php">Login</a></li>
+				<li><a href="contact.php">Contact</a></li>	
+			</ul>
+		</nav>
 		</div>
 		</div>
 	</div>
