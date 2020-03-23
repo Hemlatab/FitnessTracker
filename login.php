@@ -62,7 +62,7 @@ ob_end_flush();//producing the content back on the page
 	  <div class="container-login">
 	  <div class="row">
       <div class="col-sm-7 emailForm">
-	  <h3>Enter your login details</h3>
+	  <h3 class="login-header">Enter your login details</h3>
 	    <label><b>Username</b></label>
 	    <input type="text" placeholder="Enter Username" name="username" required>
 	    <label><b>Password</b></label>
@@ -79,9 +79,15 @@ ob_end_flush();//producing the content back on the page
 	</body>
 	</html>
 	<footer>
-	<div class="footer">
-		<p><small>Copyright&copy<?php echo date('Y');?></small></p>
-	</div>
-	</footer>
+<div class="footer">
+<h2>Get Social</h2>
+<div class="social">
+<a href="https://www.facebook.com/"><i class="fa fa-facebook-f"></i></a>
+<a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+<a href="https://www.google.com/" class="fa fa-google"></a>
+</div>
+<p><small>Copyright&copy<?php echo date('Y');?></small></p>
+</div>
+</footer>
 	</body>
 	</html>
