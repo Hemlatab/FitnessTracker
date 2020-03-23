@@ -82,11 +82,11 @@
 <br />
 <div class="register-container">
 <form action="register.php" method="post" enctype="multipart/form-data" autocomplete="off">
-               <div class="col-md-6 col-md-offset-3 emailForm">
-                   <h1 class="register-header">Register your details</h1> 
-                   <form method="post">
-                       <div class="form-group">
-                           <label><b>Username</b></label>
+    <div class="col-md-6 col-md-offset-3 emailForm">
+        <h1 class="register-header">Register your details</h1> 
+            <form method="post">
+                <div class="form-group">
+                    <label><b>Username</b></label>
     <input type="text" placeholder="Username" name="username" required>
 
     <label><b>Password</b></label>
@@ -113,8 +113,14 @@
        </div>             
 <footer>
 <div class="footer">
-	<p><small>Copyright&copy<?php echo date('Y');?></small></p>
-	</div>
+<h2>Get Social</h2>
+<div class="social">
+<a href="https://www.facebook.com/"><i class="fa fa-facebook-f"></i></a>
+<a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+<a href="https://www.google.com/" class="fa fa-google"></a>
+</div>
+<p><small>Copyright&copy<?php echo date('Y');?></small></p>
+</div>
 </footer>
 
 </body>
