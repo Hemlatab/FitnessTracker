@@ -54,7 +54,7 @@ if (isset($_POST['submit'])){
     <div class="header">
 	<header class="header">
 			<nav class="navbar">
-				<a class="logo" href="index.php"><img src="images/logo1.png"/></a>
+				<a class="logo" href="index.php"><img src="images/logo.png"/></a>
 			<ul>
 				<li><a href="register.php">Register</a></li>
 				<li><a href="login.php">Login</a></li>
@@ -93,9 +93,15 @@ if (isset($_POST['submit'])){
        <br />           
         <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-       <footer>
+<footer>
 <div class="footer">
-	<p><small>Copyright&copy<?php echo date('Y');?></small></p>
+<h2>Get Social</h2>
+<div class="social">
+<a href="https://www.facebook.com/"><i class="fa fa-facebook-f"></i></a>
+<a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+<a href="https://www.google.com/" class="fa fa-google"></a>
+</div>
+<p><small>Copyright&copy<?php echo date('Y');?></small></p>
 </div>
 </footer>
     </body>  
