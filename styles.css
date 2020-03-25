@@ -85,7 +85,15 @@ a:visited {
 .register-btn:hover{
     background-color:#137c42; 
 }
-/** Styles for about section**/
+
+/** Styles for Login Page **/
+
+h3.login-header{
+    color: maroon;
+}
+
+/** Styles for about section **/
+
 .about{
     margin: 10px 20px;
     padding:40px 80px;
@@ -98,7 +106,9 @@ a:visited {
     font-size: 17px;
     line-height: 1.5;
  }
+
 /** Styles for footer **/
+
  .footer{
     padding: 10px;
     text-align: center;
@@ -197,7 +207,7 @@ div.container_dashboard {
     border-bottom-style:10px  solid green;
 }
 .border{
-        border-bottom-style:10px  solid green;
+    border-bottom-style:10px  solid green;
 }
 form {
     font-family: verdana;
@@ -215,6 +225,7 @@ form {
     margin: 0px auto;
     min-height: 400px;
     margin-top: 40px;
+   
 }
 
 #error{
@@ -239,7 +250,9 @@ form {
 #menu a:hover{
     color: #099;
 }
+
 /* Full-width inputs */
+
 input[type=text], input[type=password] {
     width: 100%;
     padding: 10px 10px;
@@ -253,7 +266,9 @@ input[type=text], input[type=password] {
     color: red;
     font-weight: bold;
 }
+
 /* Set a style for all buttons */
+
 button {
     background-color: #4CAF50;
     color: white;
@@ -304,12 +319,13 @@ h1.register-header{
     flex-direction: column;
 }
 .register-container{
-     align-content: center; 
+    text-align: left;
 }
-.registerForm{
+.col-md-6 col-md-offset-3 registerForm{
     border: 1px solid grey;
     border-radius: 5px;
     margin-top: 10px;
+    text-align: center;
 }
 .signup-btn{
     background-color:#3CB371; 
@@ -329,13 +345,16 @@ form{
 }
 
 /** styles for Results.php **/
+
 .results-title{
     color:maroon;
 }
 .results-content{
     text-align: center;
 }
+
 /** styles for social media **/
+
 .social [class*="fa fa-"] {
     /* background-color: #333; */
     border-radius: 30px;

@@ -78,7 +78,9 @@ ob_end_flush();//producing the content back on the page
 	</div>
 	</body>
 	</html>
-	<footer>
+
+<footer>
+
 <div class="footer">
 <h2>Get Social</h2>
 <div class="social">
@@ -89,5 +91,6 @@ ob_end_flush();//producing the content back on the page
 <p><small>Copyright&copy<?php echo date('Y');?></small></p>
 </div>
 </footer>
-	</body>
-	</html>
+
+</body>
+</html>

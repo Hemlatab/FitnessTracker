@@ -80,9 +80,10 @@
 	</div>
 </div>
 <br />
-<div class="register-container">
+
 <form action="register.php" method="post" enctype="multipart/form-data" autocomplete="off">
-    <div class="col-md-6 col-md-offset-3 emailForm">
+	<div class="register-container">	
+		<div class="mx-auto col-6 emailForm">
         <h1 class="register-header">Register your details</h1> 
             <form method="post">
                 <div class="form-group">
@@ -106,11 +107,12 @@
  <br/>
     <div class="clearfix">
       <input type="submit" name="submit" value="Sign Up" class="signup-btn">
-    </div>
+	</div>
+            </div>
 </form>
                
            </div>
-       </div>             
+                   
 <footer>
 <div class="footer">
 <h2>Get Social</h2>
